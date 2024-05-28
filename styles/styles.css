@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto Condensed", sans-serif;   
+}
+
+header{
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo img {
+    height: 15vh;
+}
+.active{
+    color: #FC9779 !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+.nav-link:hover{
+    color: #FC9779 !important;
+}
+
+.img-fluid{
+    height: 80vh;
+}
+
+.titleEvent1{
+    height: 10vh;
+    width: 9%;
+}
+.titleEvent{
+    height: 6vh;
+    width: 15%;
+    background: #FC9779;
+}
+.events{
+    background: #1B1B1B;
+    width: 100%;
+}
+.nameAndDate{
+    color: #ffffff;
+}
+.nameAndDate:hover{
+    color: #FC9779;
+}
+.buttonTicket{
+    border-color: #FC9779;
+    background: #1B1B1B;
+    color: #FC9779;
+}
+
+.titleNewletter{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.bg-newsletter{
+    background: #FC9779;
+    position: relative;
+}
+
+.bg-newsletter::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36%;
+    border: 9px solid #fff;
+    z-index: 2;
+}
+
+.bg-newsletter::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 36%;
+    border: 9px solid #fff;
+    z-index: 2;
+}
+
+#email-newsLetter{
+    border-radius: 0%;
+}
+
+.subscribe{
+    background: #FC9779;
+    transition: 0.5s;
+}
+.subscribe:hover {
+    background-color: black;
+    color: #FC9779;
+    
+}
+
+.logout{
+    display: none;
+}

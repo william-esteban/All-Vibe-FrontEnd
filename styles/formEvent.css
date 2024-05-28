@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+input, select {
+    width: 30rem !important;
+}
+
+body{
+    background-image: url(/img/ritvales2.jpg);
+    
+}
+
+.logo{
+    width: 10vh;
+    background-color: black;
+}
+
+.btn-primary{
+    background-color: #FC9779;
+    border-color: #FC9779;
+    transition: 1s;
+}
+.btn-primary:hover{
+    background-color: black;
+    color: #FC9779;
+    border-color: #FC9779;
+}

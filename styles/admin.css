@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;   
+}
+
+body{
+  background: #222;
+}
+
+th{
+  background: #e66944 !important;
+  color: black !important;
+}
+
+a.btn-management{
+  background: #e66944 !important;
+  color: black !important;
+
+}
+
+a.btn-management:hover{
+  background: #222 !important;
+  color: #e66944 !important;
+  border: 1px solid #e66944;
+  
+}
+
+header{
+  font-weight: bold;
+  color: #fff;
+  
+}
+
+.logo img {
+  height: 15vh;
+}
+
+.nav-link:hover{
+  color: #FC9779 !important;
+}
+
+
+
+
